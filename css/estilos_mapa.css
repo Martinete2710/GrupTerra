@@ -1,0 +1,52 @@
+#control_map {
+    float: left;
+    width: 80%; /* Cambié a un porcentaje para que sea más flexible */
+    margin-left: 50%; /* Ajusté el margen izquierdo */
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.map {
+    position: relative;
+    right: 0; /* Ajusté la posición derecha */
+    top: 0px;
+    width: 80%; /* Haciendo que el mapa ocupe el ancho completo del contenedor */
+	height: 80%;
+}
+
+#content_mapa {
+    float: right;
+}
+
+.content_list_states {
+    float: left;
+    color: #FAA21D;
+}
+
+.listaEdos {
+    cursor: pointer;
+    margin: 11px 0px;
+    display: block;
+    font-size: 14px;
+}
+
+.listaEdos:hover,
+.listaEdosHover {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.listaEdosActive {
+    color: #FAA21D;
+    font-weight: 600;
+}
+#edo {
+    position: relative; /* Cambié a relativo para ajustar en relación con el contenedor principal */
+    top: -440px;
+    left: 20px;
+    font-size: 2em;
+    color: #FAA21D;
+    z-index: 2;
+    text-align: center;
+    width: 100%; /* Haciendo que el texto ocupe el ancho completo del contenedor */
+}
