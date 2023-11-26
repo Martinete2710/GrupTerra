@@ -10,7 +10,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="./css/estilos_mapa.css">
+    
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/jquery.maphighlight.min.js"></script>
     <script src="js/imageMapResizer.min.js"></script>
@@ -83,7 +83,7 @@
                 cargarEstado(last_selected_id_estado);
             });
 
-            $('.map').maphilight({ fade: true, strokeColor: 'FAA21D', fillColor: 'FAA21D', fillOpacity: 0.3 });//funciona, pero no cuando se redimienciona la imagen (cuando se cambia el estylo de la img con widt o height)                        
+            $('.map').maphilight({ fade: true, strokeColor: 'FAA21D', fillColor: 'FAA21D', fillOpacity: 0.8 });//funciona, pero no cuando se redimienciona la imagen (cuando se cambia el estylo de la img con widt o height)                        
         });
 
     </script>
@@ -223,7 +223,7 @@
 
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
-        <h2>Estados de la republica</h2>
+        <h2>Orgullosamente Mexicanos</h2>
         <div class="contenido-seccion">
             <div class="fila">
                 <!--Listado Estados-->
@@ -370,8 +370,8 @@
                             <div id='content_mapa'>
                                 <img id="map_ID" class="map" src="./images/mapa.png" usemap="#mexico" title="Mexico"
                                     alt="Mexico" />
-                                <div id="edo">&nbsp;</div>
-                                <div class="escudo"></div>
+                                
+                               
                             </div>
                         </div>
                     </form>

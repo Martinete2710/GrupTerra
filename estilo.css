@@ -67,7 +67,7 @@ html{
 }
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #C29F71;
+    background-color: #d67c06;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -104,7 +104,7 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #FAA21D;
+    background-color: #c2b095;
 }
 .sobremi{
     background-color: #1e2326;
@@ -234,6 +234,30 @@ html{
 .skills .fila .col{
     width: 50%;
     padding: 0 20px;
+}
+
+#content_mapa {
+    float: right;
+    width: 140%;
+    height: 1000%;
+}
+
+.content_list_states {
+    float: left;
+    color: #FAA21D;
+}
+
+.listaEdos {
+    cursor: pointer;
+    margin: 11px 0px;
+    display: block;
+    font-size: 14px;
+}
+
+.listaEdos:hover,
+.listaEdosHover {
+    color: #ffffff;
+    font-weight: 600;
 }
 
 
