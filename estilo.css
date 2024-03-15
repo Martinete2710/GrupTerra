@@ -103,6 +103,60 @@ html{
     font-size: 20px;
     transition: .3s;
 }
+
+/*///////////////////////////////////*/
+.inicio2{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(img/mapa-topografia\,.jpeg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.inicio2 .contenido-banner{
+    padding: 20px;
+    background-color: #d67c06;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio2 .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #FAA21D;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio2 .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.inicio2 .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio2 .contenido-banner .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+
+
+
+
 .inicio .contenido-banner .redes a:hover{
     background-color: #c2b095;
 }
@@ -617,7 +671,7 @@ footer .arriba{
     }
 }
  /* Estilos para el modal y la superposición de fondo */
- body {
+body {
     font-family: Arial, sans-serif;
 }
 
@@ -657,3 +711,83 @@ footer .arriba{
     border-radius: 5px;
     margin-top: 10px;
 }
+ /*estiloos navbar *************************************************************************/
+   /* Estilos para el navbar */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-responsive {
+    display: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+    .nav-responsive {
+        display: block;
+    }
+}
+
+/* Estilos para el submenu */
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #FAA21D;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+}
+
+.submenu a {
+    color: white;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    background-color: #555;
+}
+
+/* Estilos para la imagen responsiva */
+.imagen-responsiva {
+    text-align: center; /* Centra el contenido del div */
+}
+
+/* Estilos para la imagen dentro del div */
+.imagen-responsiva img {
+    max-width: 100%; /* La imagen ocupará como máximo el 100% del ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción de la imagen */
+    display: inline-block; /* Permite alinear horizontalmente el contenido */
+}
+
+
+/* Estilos para la imagen responsiva2 */
+.imagen-responsiva2 {
+    text-align: center; /* Centra el contenido del div */
+}
+
+/* Estilos para la imagen2 dentro del div */
+.imagen-responsiva2 img {
+    max-width: 80%; /* La imagen ocupará como máximo el 100% del ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción de la imagen */
+    display: inline-block; /* Permite alinear horizontalmente el contenido */
+}
+
